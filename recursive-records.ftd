@@ -1,0 +1,13 @@
+-- ftd.text: records
+
+-- record company:
+caption name:
+
+-- company fifthtry:
+name: FifthTry
+
+-- ftd.text: Company
+
+-- ftd.text: $fifthtry.name
+
+/Can we have an example of recursive records

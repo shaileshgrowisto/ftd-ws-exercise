@@ -1,0 +1,24 @@
+-- string list locations:
+
+-- locations: Bengaluru
+-- locations: Varanasi
+-- locations: Prayagraj
+
+-- print:
+$loop$: $locations as $obj
+value: $obj
+
+-- component print:
+
+-- string value:
+
+-- ftd.text: $print.value
+
+-- end: print
+
+-- ftd.text: with-argument
+
+link: /with-argument/
+
+; can we have an explanation here, whether its correct or not
+; I think list are not working here

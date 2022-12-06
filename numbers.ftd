@@ -1,0 +1,10 @@
+/This works
+-- integer pi: 10
+
+-- ftd.integer: $pi
+
+/This gives an error
+/FPM-Error: path: numbers, PackageError { message: "failed to parse OldP1Error(ParseError { message: \"library not found: ftd\", doc_id: \"\", line_number: 0 })" }
+-- decimal pi: 10.2
+
+-- ftd.decimal: $pi

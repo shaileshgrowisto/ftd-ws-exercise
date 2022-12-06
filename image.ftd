@@ -1,0 +1,10 @@
+-- import: hello/assets
+
+-- ftd.image:
+src: $assets.files.logo-fifthtry.svg
+
+-- ftd.text: manual-image
+
+/gives error 
+/FPM-Error: path: /, PackageError { message: "failed to parse ParseError { message: \"hello/: not found (\\\"hello/#assets.files.logo-fifthtry.svg\\\"), f: search_thing\", doc_id: \"hello/\", line_number: 15 }" }
+

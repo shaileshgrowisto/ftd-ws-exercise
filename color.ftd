@@ -1,0 +1,13 @@
+-- import: fpm
+
+-- ftd.color red:
+light: red
+dark: red
+
+-- ftd.text: hello world
+padding.px: 20
+;color: $red
+;border-width: 2 / will be this in only px?
+
+/uncomment color to see below error
+/FPM-Error: path: /, PackageError { message: "failed to parse OldP1Error(ParseError { message: \"library not found: ftd\", doc_id: \"\", line_number: 0 })" }
