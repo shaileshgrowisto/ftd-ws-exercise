@@ -1,0 +1,33 @@
+-- integer $count: 0
+
+-- ftd.integer: $count
+padding.px: 20
+border-width.px: 2
+
+-- ftd.text: increment counter
+$on-click$: $increment($a = $count)
+
+-- ftd.text: decrement counter
+$on-click$: $decrement($a = $count)
+
+-- ftd.text: component
+
+-- integer increment(a):
+integer $a:
+
+a += 1
+
+-- integer decrement(a):
+integer $a:
+
+a -= 1
+
+;Suggestion
+;
+;here the function parameter declaration is skipped, stil it gets called
+;can we keep it simpler like other programming langauges
+;Like below
+;
+;-- integer decrement(integer $a):
+;
+;a -= 1
