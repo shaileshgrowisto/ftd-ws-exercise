@@ -1,0 +1,16 @@
+
+-- integer list list:
+
+-- list: 10
+-- list: 20
+-- list: 30
+
+
+
+-- ftd.integer:
+value: $o
+$loop$: $list as $o
+
+
+/Run this file to see below error
+/FPM-Error: path: index, PackageError { message: "failed to parse ParseError { message: \"hello/: Expected Component, found: `Variable(Variable { name: \\\"hello/#list\\\", kind: KindData { kind: List { kind: Integer }, caption: false, body: false }, mutable: false, value: Value { value: List { data: [], kind: KindData { kind: Integer, caption: false, body: false } }, is_mutable: false, line_number: 2 }, conditional_value: [], line_number: 2, is_static: true })` (\\\"list\\\"), f: search_component\", doc_id: \"hello/\", line_number: 4 }" }
